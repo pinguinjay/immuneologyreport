@@ -22,3 +22,8 @@ wilcox.test(tumorSize$PBSTumorGrowthRate, tumorSize$antiPDL1TumorGrowthRate, pai
 # Decision: Fail to reject Null Hypothesis
 # Conclusion: No difference in tumor groth rate between Males and Females
 #
+#結果
+#	Wilcoxon rank sum exact test
+#data:  tumorSize$antiPDL1TumorGrowthRate and tumorSize$PBSTumorGrowthRate
+#W = 23, p-value = 0.9015
+#alternative hypothesis: true location shift is not equal to 0
