@@ -1,13 +1,13 @@
-
+##讀取流式細胞儀檔案
 flow<-read.csv(file = "flow_1.csv", header = TRUE, sep = ",")
 flowdata<-flow[,-1]
 
-
+#製作圖二
 library(GGally)
 pm<-ggpairs(flowdata,mapping = aes(color = flowdata$treatmemt))
 pm
 
-
+#依照施打藥物拆開
 library(tidyverse)
 PBS_flow<-filter(flowdata,flow$treatmemt=="PBS")
 PDL1_flow<-filter(flowdata,flow$treatmemt=="PDL1")
@@ -28,7 +28,7 @@ for (i in 1:ncols) {
 names(column_means) <- names(PBS_flow)
 column_means
 ##########################
-
+#各項數值的wilcoxon test
 wilcox.test(PBS_flow$Tc,PDL1_flow$Tc, paired =  FALSE)
 wilcox.test(PBS_flow$NK,PDL1_flow$NK,paired = FALSE)
 wilcox.test(PBS_flow$Neutrophil,PDL1_flow$Neutrophil, paired =  FALSE)
