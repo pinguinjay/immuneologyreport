@@ -8,6 +8,7 @@ pm<-ggpairs(flowdata,mapping = aes(color = flowdata$treatmemt))
 pm
 
 #依照施打藥物拆開
+#install.packages("tidyverse") #若未安裝套件記得先安裝
 library(tidyverse)
 PBS_flow<-filter(flowdata,flow$treatmemt=="PBS")
 PDL1_flow<-filter(flowdata,flow$treatmemt=="PDL1")
