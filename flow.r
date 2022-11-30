@@ -3,6 +3,7 @@ flow<-read.csv(file = "flow_1.csv", header = TRUE, sep = ",")
 flowdata<-flow[,-1]
 
 #製作圖二
+#install.packages("GGally") #若未安裝套件記得先安裝
 library(GGally)
 pm<-ggpairs(flowdata,mapping = aes(color = flowdata$treatmemt))
 pm
