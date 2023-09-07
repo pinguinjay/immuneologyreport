@@ -8,4 +8,4 @@
 3. 當中的變數可能你們當年使用時會有改動，有問題請寄信到我的信箱(110910020@live.mmc.edu.tw)詢問。我能保證在畢業前(西元2026年/民國115年)都能得到我的回覆
 4. R軟體很可愛，對於不打算學通用程式語言(C,python)的人來說很適合當作計算機
 ## 世界第一的公主殿下
-![alt text]([[http://url/to/img.png](https://user-images.githubusercontent.com/59988302/79388112-28119a00-7f43-11ea-9d4e-463d8737854a.jpg)https://user-images.githubusercontent.com/59988302/79388112-28119a00-7f43-11ea-9d4e-463d8737854a.jpg](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![hi](http://images6.fanpop.com/image/photos/39900000/Hatsune-Miku-hatsune-miku-39965597-564-564.jpg)
